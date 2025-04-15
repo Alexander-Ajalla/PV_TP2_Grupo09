@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <script>
+        const mostrarDatos = (event) => {
+            // * Obtener los valores de los campos
+            const nombre = document.getElementById("nombre").value;
+            // * Mostrar los datos en un alert
+            alert(`Hola ${nombre}, bienvenido a Programación Visual!`);
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="mostrarDatos(event)">
+        <label>Ingrese su nombre
+            <br>
+            <input type="text" id="nombre">
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
