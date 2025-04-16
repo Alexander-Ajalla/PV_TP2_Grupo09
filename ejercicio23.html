@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 23</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .opciones {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: flex;
+      gap: 25px;
+    }
+
+    label {
+      font-size: 16px;
+      color: #34495e;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+    }
+
+    #resultado {
+      font-size: 18px;
+      font-weight: 500;
+      background-color: #dff9fb;
+      color: #2d3436;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h2>Seleccioná tu lenguaje de programación favorito</h2>
+
+  <div class="opciones">
+    <label><input type="radio" name="lenguaje" value="JavaScript"> JavaScript</label>
+    <label><input type="radio" name="lenguaje" value="Python"> Python</label>
+    <label><input type="radio" name="lenguaje" value="Java"> Java</label>
+  </div>
+
+  <p id="resultado">Ninguno seleccionado aún</p>
+
+  <script type="module" src="js/ejercicio23.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 20</title>
+    <link rel="stylesheet" href="ejercicio20.css">
+      <style>
+          body {
+                font-family: Arial, sans-serif;
+                 margin: 20px;
+                 background-color: #ff6d6d;
+    }
+    .desplegables {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+    }
+    select {
+      justify-content: center;
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #d63a3a;
+      border-radius: 4px;
+      width: 200px;
+      align-items: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="desplegables">
+        <select id="paises">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Chile">Chile</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Mexico">México</option>
+          <option value="Peru">Perú</option>
+        </select>
+        <select id="capitales">
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Brasilia">Brasilia</option>
+          <option value="Santiago">Santiago</option>
+          <option value="Bogota">Bogotá</option>
+          <option value="Ciudad de Mexico">Ciudad de México</option>
+          <option value="Lima">Lima</option>
+        </select>
+      </div>
+      <script type="module" src="./js/ejercicio20.js"></script>
+</body>
+</html>
